@@ -19,6 +19,12 @@ module.exports = {
     }
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        includePaths: ['./src'],
+      },
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-lodash",
     {
