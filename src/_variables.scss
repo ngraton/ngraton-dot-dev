@@ -1,9 +1,6 @@
-@import '~bulma/sass/utilities/_all.sass';
-@import './fonts/stylesheet.scss';
 
-:root {
-  $defaultBackground:  #080808;
-}
+$defaultBackground:  #080808;
+
 
 .Modern {
   $titleColor: black;
@@ -28,13 +25,6 @@
   $textColor: #ffffff;
   $altTitleFont: 'lazer84regular', 'Monoton', cursive;
   $cardBackgroundColor: #343a40!important;
-  $invert: invert(100%);
+  --invert: invert(100%);
 }
 
-body {
-  background-color: $defaultBackground;
-}
-
-.BlackImg {
-  filter: $invert;
-}

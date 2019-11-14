@@ -1,3 +1,9 @@
+@import "~react-bulma-components/src/index.sass";
+@import '~bulma/sass/utilities/_all.sass';
+@import '../fonts/stylesheet.css';
+@import '../_variables.scss';
+
+
 * {
   box-sizing: border-box;
 }
@@ -11,6 +17,7 @@ body {
   padding: 0;
   min-height: 100%;
   min-width: 100%;
+  background-color: $defaultBackground;
 }
 
 #___gatsby #gatsby-focus-wrapper {
@@ -23,4 +30,8 @@ body {
   min-width: 100vw;
   display: flex;
   padding: 20px;
+}
+
+.BlackImg {
+  filter: --invert;
 }
