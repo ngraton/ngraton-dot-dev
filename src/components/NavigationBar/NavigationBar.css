@@ -1,0 +1,33 @@
+.NavigationBar-NavBar {
+  background-color: var(--defaultBackground)!important;
+  bottom: 0;
+  z-index: 10;
+  font-family:  var(--titleFont);
+  color: var(--textColor)!important;
+
+}
+
+.NavigationBar-Brand {
+  color: var(--titleColor)!important;
+  text-shadow: var(--titleShadow);
+}
+
+.Nav-Element {
+  margin: var(--navMargin);
+  color: var(--textColor)!important;
+}
+
+.Nav-Toggle {
+  color: var(--textColor)!important;
+  filter: var(--invert);
+}
+
+.NavigationBar-NavBar .dropdown-toggle {
+  color: var(--textColor)!important;
+  background-color: var(--defaultBackground)!important;
+}
+
+.NavigationBar-NavBar .dropdown-menu {
+  color: var(--textColor)!important;
+  background-color: var(--defaultBackground)!important;
+}

@@ -1,0 +1,43 @@
+:root {
+  --defaultBackground:  #080808;
+}
+
+.Modern {
+  --titleColor: black;
+  --shadowColor:  #ababab;
+  --titleShadow: ;
+  --titleFont: 'Special Elite', cursive;
+  --defaultBackground: #ffffff;
+  --linkFont: 'Special Elite', cursive;
+  --linkShadow: ;
+  --textColor: #434343;
+  --altTitleFont: 'Special Elite', cursive;
+  --cardBackgroundColor: whitesmoke!important;
+}
+
+.Eighties {
+  --titleColor: #bc13fe;
+  --shadowColor:  #352668;
+  --titleShadow: 4px 4px var(--shadowColor);
+  --titleFont: 'sf_alien_encountersitalic', 'Monoton', cursive;
+  --linkFont:'sf_alien_encountersitalic', 'Monoton', cursive;
+  --linkShadow: 2px 2px  #6e0e94;
+  --textColor: #ffffff;
+  --altTitleFont: 'lazer84regular', 'Monoton', cursive;
+  --cardBackgroundColor: #343a40!important;
+  --invert: invert(100%);
+
+
+
+}
+
+body {
+  background-color: var(--defaultBackground);
+}
+
+.BlackImg {
+  filter: var(--invert);
+}
+
+
+

@@ -1,0 +1,53 @@
+.Modern {
+  --writingsBackground: url('https://i.imgur.com/otHqDZn.jpg');
+}
+
+.Eighties {
+  --writingsBackground: url('https://i.imgur.com/OnUYZ41.jpg');
+
+}
+
+.Other-tron {
+  background-image: var(--writingsBackground);
+  background-position:  center center;
+  background-color: #282c34;
+  background-attachment: fixed!important;
+  background-size: cover;
+  margin: 0!important;
+  min-height: 1080px;
+}
+
+.Writings-title {
+  margin: 30vh 0 20px 0;
+  text-align: center;
+  color: var(--titleColor);
+  text-shadow: var(--titleShadow);
+  font-family: var(--altTitleFont);
+  z-index: 9;
+}
+
+.Writings-CardHeader {
+  font-family: var(--titleFont);
+  background-color:var(--defaultBackground)!important;
+}
+
+.Writings-CardLink {
+  font-family: var(--titleFont);
+  text-shadow: var(--linkShadow);
+}
+
+.Writings-CardTitle {
+  font-family: var(--titleFont);
+
+  text-shadow: var(--titleShadow);
+}
+
+.Writings-Card {
+  border: 0;
+  background: transparent;
+}
+
+.Writings-CardBody {
+  background: var(--cardBackgroundColor);
+  color: var(--textColor);
+}

@@ -1,0 +1,102 @@
+
+.Header-Container {
+  margin: auto;
+} 
+
+.AboutMe-Image {
+  margin: 25px 0px 20px 1vw;
+  box-shadow: var(--titleShadow);
+}
+
+.AboutMe-Title {
+  margin: 25px 0px 10px 0px;
+  color: var(--titleColor);
+  text-shadow: var(--titleShadow);
+  font-family:  var(--titleFont);
+}
+
+.AboutMe-Text {
+  margin: 20px 0px 10px 0px;
+  text-shadow: var(--titleShadow)!important;
+  color: var(--textColor);
+
+}
+
+.AboutMe-Links {
+  margin: 20px 20px 10px 0px;
+}
+
+.Header {
+  min-height:100vh!important; 
+  background-color: var(--defaultBackground)!important;
+  z-index: 11;
+  justify-content: center;
+}
+
+.Nav-Image {
+  height: 1.5em;
+  margin: 0;
+}
+
+.Header-Link {
+  font-family:  var(--linkFont);
+  text-shadow: var(--linkShadow);
+
+}
+
+.Down-Arrow {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: var(--headerBackground);
+  transform: rotate(45deg);
+  align-self: center;
+  bottom: 15px;
+}
+
+.Down-Arrow span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  border-right: 3px solid var(--shadowColor);
+  border-bottom: 3px solid var(--shadowColor);
+  animation: animate 1s linear infinite;
+}
+
+.Down-Arrow span:nth-child(1) {
+  top: -30px;
+  left: -30px;
+  animation-delay: 0ms
+}
+
+.Down-Arrow span:nth-child(2) {
+  top: -15px;
+  left: -15px;
+  animation-delay: 0.2s
+
+}
+
+.Down-Arrow span:nth-child(3) {
+  top: 0px;
+  left: 0px;
+  animation-delay: 0.4s
+
+}
+
+@keyframes animate {
+  0% {
+    border-color: var(--titleColor);
+  }
+  20% {
+    border-color: var(--titleColor);
+  }
+  20.1%,100% {
+    border-color:var(--shadowColor);
+  }
+}
+

@@ -1,0 +1,48 @@
+.Tech-Title {
+  margin: 20px 0 0 0;
+  text-align: center;
+  color: var(--titleColor);
+  text-shadow: var(--titleShadow);
+  font-family: var(--altTitleFont);
+}
+
+.Tech-Icon {
+  height: 5em;
+}
+
+.Tech-Container {
+  justify-content: center;
+  margin: 10px 0 20px 10px;
+}
+
+.Tech-Card {
+  background-color: var(--defaultBackground)!important;
+}
+
+.Tech-Text {
+  text-align: center;
+  font-family: var(--altTitleFont);
+  text-shadow: var(--linkShadow);
+  color: var(--textColor);
+}
+
+.Popover-Title {
+  font-family: var(--titleFont)!important;
+  background-color: var(--defaultBackground)!important;
+  border-color: var(--defaultBackground);
+  color: var(--titleColor);
+  text-shadow: var(--titleShadow)
+}
+
+.Popover-Link {
+  background-color: var(--defaultBackground)!important;
+  font-family: var(--titleFont);
+  text-shadow: var(--linkShadow);
+  
+}
+
+.Popover-Content {
+  background-color: var(--cardBackgroundColor);
+  color: var(--textColor);
+  
+}

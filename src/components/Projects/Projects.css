@@ -1,0 +1,57 @@
+.Modern {
+  --projectsBackgroundImg: url('https://i.imgur.com/yjdXgWG.jpg');
+}
+
+.Eighties {
+  --projectsBackgroundImg: url('https://i.imgur.com/UHZgkxN.jpg');
+}
+
+.Projects-Container {
+  margin: 0 5vw 100px 5vw;
+  justify-content: center;
+}
+
+.Sun-tron {
+  background-image: var(--projectsBackgroundImg);
+  background-color: #282c34;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  margin: 0!important;
+  justify-content: center;
+}
+
+
+.Projects-title {
+  margin: 130vh 0 25px 0;
+  text-align: center;
+  color: var(--titleColor);
+  text-shadow: var(--titleShadow);
+  font-family: var(--altTitleFont);
+}
+
+.Project-CardHeader {
+  font-family: var(--titleFont);
+  background-color:var(--defaultBackground)!important;
+  color: var(--titleColor);
+  text-shadow: var(--titleShadow);
+}
+
+.Project-CardTitle {
+  font-family: var(--titleFont);
+  text-shadow: var(--linkShadow);
+  color: var(--textColor);
+}
+
+.Project-CardLink {
+  font-family: var(--linkFont);
+  text-shadow: var(--linkShadow);
+
+}
+
+.Projects-Card {
+  border-color: var(--defaultBackground);
+  background-color: var(--cardBackgroundColor);
+  color: var(--textColor);
+
+}

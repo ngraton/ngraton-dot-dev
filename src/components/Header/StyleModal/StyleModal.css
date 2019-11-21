@@ -1,0 +1,32 @@
+
+.Style-Button {
+  color: var(--titleColor);
+  text-shadow: var(--titleShadow);
+  font-family: var(--titleFont);
+  background: var(--defaultBackground);
+}
+
+.Style-Button span {
+  font-size: smaller;
+}
+
+.Egg-Button {
+  --eggImg: url('https://i.imgur.com/BRlQ0M7.png');
+}
+
+.Egg-Button {
+  background-image: var(--eggImg);
+  background-color: white!important;
+  background-position: center;
+  background-size: contain;
+  height: 2em;
+  margin-top: -1em;
+  background-repeat: no-repeat;
+  border: 0;
+  opacity: 0;
+  transition: all ease 0.8s;
+}
+
+/* .Egg-Button:hover {
+  opacity: 1;
+} */
