@@ -3,7 +3,7 @@ import { Navbar, Nav, Image } from 'react-bootstrap';
 
 import StyleContext from '../../StyleContext';
 
-import githubImg from '../../images/Icons/github.svg';
+import githubImg from '../../../docs/images/Icons/github.svg'
 import './Footer.css';
 
 function Footer() {

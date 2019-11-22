@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
 import "./index.scss";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class MainLayout extends React.Component {
   render() {

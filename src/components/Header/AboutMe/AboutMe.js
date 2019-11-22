@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, Image, Col, Row, Card, Nav } from 'react-bootstrap';
 
-import gmailImg from '../../../images/Icons/iconfinder_gmail_132837.png';
-import creddleImg from '../../../images/Icons/creddle.png';
-import linkedinImg from '../../../images/Icons/linkedIn.svg';
-import githubImg from '../../../images/Icons/github.svg';
+import gmailImg from '../../../../docs/images/Icons/iconfinder_gmail_132837.png';
+import creddleImg from '../../../../docs/images/Icons/creddle.png';
+import linkedinImg from '../../../../docs/images/Icons/linkedIn.svg';
+import githubImg from '../../../../docs/images/Icons/github.svg';
 
 
 function AboutMe() {

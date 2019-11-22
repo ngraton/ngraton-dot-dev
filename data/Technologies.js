@@ -1,12 +1,12 @@
-import htmlImg from '../images/Icons/html5.svg';
-import cssImg from '../images/Icons/css.svg';
-import jsImg from '../images/Icons/JS.svg';
-import pythonImg from '../images/Icons/python.svg';
-import reactImg from '../images/Icons/react.svg';
-import djangoImg from '../images/Icons/django.svg';
-import openlayersImg from '../images/Icons/ol-logo.png';
-import postgresqlImg from '../images/Icons/postgresql.svg';
-import gitImg from '../images/Icons/git.svg';
+import htmlImg from '../docs/images/Icons/html5.svg';
+import cssImg from '../docs/images/Icons/css.svg';
+import jsImg from '../docs/images/Icons/JS.svg';
+import pythonImg from '../docs/images/Icons/python.svg';
+import reactImg from '../docs/images/Icons/react.svg';
+import djangoImg from '../docs/images/Icons/django.svg';
+import openlayersImg from '../docs/images/Icons/ol-logo.png';
+import postgresqlImg from '../docs/images/Icons/postgresql.svg';
+import gitImg from '../docs/images/Icons/git.svg';
 
   const techObjArr = [
     {

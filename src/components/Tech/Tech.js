@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Container, Image, Row, Col, OverlayTrigger, Popover, Nav } from 'react-bootstrap';
 
 import StyleContext from '../../StyleContext';
-import TechObjArr from '../../data/Technologies';
+import TechObjArr from '../../../data/Technologies';
 
 import './Tech.css'
 
