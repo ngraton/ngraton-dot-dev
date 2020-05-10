@@ -21,13 +21,12 @@ function Projects() {
                   <Nav className="flex-column">
                     <div className="Project-CardLink">
                     <Nav.Link href="https://pac-man-go.herokuapp.com">Try it!</Nav.Link>
-                    <Nav.Link href="https://github.com/ngraton/pac-man-go-react"> Frontend GitHub Repo</Nav.Link>
-                    <Nav.Link href="https://github.com/ngraton/PacManGo-Backend">Backend GitHub Repo</Nav.Link>
+                    <Nav.Link href="https://github.com/ngraton/pac-man-go-react">GitHub Repo</Nav.Link>
                     </div>
                   </Nav>
                 </Card.Body>
               </Card>
-              <Card className="Projects-Card">
+              {/* <Card className="Projects-Card">
                 <Card.Header className="Project-CardHeader">
                   <h3>SubReckoner</h3>
                 </Card.Header>
@@ -45,7 +44,7 @@ function Projects() {
                     </div>
                   </Nav>
                 </Card.Body>
-              </Card>
+              </Card> */}
             </CardDeck>
     </Jumbotron>
   )
