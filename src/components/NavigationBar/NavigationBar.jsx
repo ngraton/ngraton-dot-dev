@@ -41,10 +41,6 @@ function NavigationBar() {
             <Image src={gmailImg} className="Nav-Image"/>
             Email
           </Nav.Link>
-          <Nav.Link className="Nav-Element" href="https://resume.creddle.io/resume/b2dfyqjeb0f">
-            <Image src={creddleImg} className="Nav-Image"/>
-            Resume
-          </Nav.Link>
           <Nav.Link className="Nav-Element" href="https://linkedin.com/in/ngraton/">
             <Image src={linkedinImg} className="Nav-Image"/>
             LinkedIn
