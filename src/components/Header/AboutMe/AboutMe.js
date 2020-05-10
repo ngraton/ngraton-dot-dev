@@ -19,7 +19,7 @@ function AboutMe() {
         <Col sm={5} md={7}>
           <Card.Title className="AboutMe-Title"><h1>Nic Graton:</h1> <h3>Fullstack Web Developer </h3></Card.Title>
           <Card.Text className="AboutMe-Text">
-            I am a computational thinker with a passion for technology and a call to service. I served eight years as an Artillery Officer in the U.S. Army. Having recently completed the Fullstack Web Development bootcamp at Code Platoon, I’m ready to begin solving problems as a Software Engineer. 
+          I am a computational thinker with a passion for technology and a call to service. I served eight years as an Artillery Officer in the U.S. Army. After leaving active duty I completed the Fullstack Web Development bootcamp at Code Platoon. Now I solve problems as a Software Engineer.
           </Card.Text>
           <Nav className="AboutMe-Links">
             <Container fluid="true">
@@ -28,12 +28,6 @@ function AboutMe() {
                   <Nav.Link href="mailto:mail@ngraton.dev" className="Header-Link">
                     <Image src={gmailImg} className="Nav-Image"/>
                     Email
-                  </Nav.Link>
-                </Col>
-                <Col xs="auto">
-                  <Nav.Link href="https://resume.creddle.io/resume/b2dfyqjeb0f" className="Header-Link">
-                    <Image src={creddleImg} className="Nav-Image"/>
-                    Resume
                   </Nav.Link>
                 </Col>
                 <Col xs="auto">
