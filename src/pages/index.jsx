@@ -9,7 +9,7 @@ class Index extends Component {
     return (
       <Layout>
         <div className="app-container">
-          <Helmet title={`App | ${config.siteTitle}`} />
+          <Helmet title={`${config.siteTitle}`} />
           <App />
         </div>
       </Layout>
